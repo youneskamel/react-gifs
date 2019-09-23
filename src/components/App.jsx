@@ -14,6 +14,7 @@ class App extends React.Component {
       gifs: [],
       selectedGifId: "QXPmPdudTz4So2P4OQ"
     };
+    this.search("bayern")
   }
 
    search = (query) => {
