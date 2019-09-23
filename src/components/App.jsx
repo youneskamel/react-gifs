@@ -12,7 +12,7 @@ class App extends React.Component {
     super();
     this.state = {
       gifs: [],
-      selectedGifId: "QXPmPdudTz4So2P4OQ"
+      selectedGifId: "26uTsMNf5ic2JBSfu"
     };
     this.search("bayern")
   }
