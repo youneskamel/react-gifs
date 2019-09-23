@@ -13,7 +13,9 @@ class SelectedGif extends React.Component {
 
   render() {
     return (
-      <Gif id={this.props.selectId} className="selected-gif"/>
+      <div className= "selected-gif">
+      <Gif id={this.props.selectId}/>
+      </div>
     ); }
 };
 
