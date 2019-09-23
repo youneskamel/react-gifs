@@ -6,17 +6,18 @@ class GifList extends React.Component {
   constructor() {
     super();
     this.state = {};
-
   }
 
-
-
-
-
   render() {
-    return this.props.gifs.map((gif) => {
+    return (
+    <div className="gif-list">
+
+    {this.props.gifs.map((gif) => {
       return <Gif id={gif.id} selectId={this.props.selectId}/>;
-    });
+    })}
+    </div>
+
+      );
   }
 }
 
