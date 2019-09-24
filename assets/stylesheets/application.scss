@@ -20,7 +20,7 @@
   }
 
   &:before {
-    content: '\F002';
+
     position: absolute;
     top: 35px;
     left: 60px;
@@ -60,4 +60,15 @@
       cursor: pointer;
     }
   }
+}
+
+.searchbar-div {
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  color: silver;
+  font-size: 50px;
+  margin-left: 100px;
 }
